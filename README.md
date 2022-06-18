@@ -677,11 +677,7 @@ On the tank, there are 3 different power banks. Each has a different purpose.
 🔋The smallest one, 5000mAh, is for powering the microcontrollers, KL25z and ESP32. The microcontrollers are volatile in terms of power.
 They need a constant flow of 5V. Even a little fluctuation in the voltage can halt their action. The small powerbank is located on the front panel of the tank
 
-![alt text](https://github.com/CankutBoraTuncer/MUWCAT-Mk1/blob/main/Misc/Img/small_powerbank.jfif)
-
 🔋The middle one, 10000mAh, is used to power the servos and motor drivers. The servos draw approximately 1-2A and hence it needed a bigger powerbank than the smaller one with a higher current rating. It is located at the bottom of the tank.
-
-![alt text](https://github.com/CankutBoraTuncer/MUWCAT-Mk1/blob/main/Misc/Img/middle_powerbank.jfif)
 
 🔋The big one, 20000mAh, is used to power the motors. The battery has to be capable of delivering 2A at 12V, thats why the middle powerbank was insufficent(only 1A at 12V). However, the big powerbank has Quickcharge 3. It is great when you are powering a smart device, but the smart powerbanks can't power dummy circuitry. A handshake protocole is needed to deliever power. From the green and white pins of the USB cable 3.3v needs to be outputed. This handshake is initiated with the Arduino Nano. It is located next to the middle battery.
 
@@ -691,26 +687,7 @@ On the tank, there are 2 different motors: Servo and DC.
 ⚡ There are 5 servos located at the arm of the tank. 3 MG996r(large) and 2 MG90s(small). They are both powered with 5V. Be aware that the standart SG90 will not going to work. 
 The upgraded version MG90s is chosen because the servos carrying a substantial amount of weight.
 
-MG996r
-
-![alt text](https://github.com/CankutBoraTuncer/MUWCAT-Mk1/blob/main/Misc/Img/mg966r.webp)
-
-MG90s
-
-![alt text](https://github.com/CankutBoraTuncer/MUWCAT-Mk1/blob/main/Misc/Img/mg90s.webp)
-
-SG90
-
-![alt text](https://github.com/CankutBoraTuncer/MUWCAT-Mk1/blob/main/Misc/Img/sg90.webp)
-
-
 ⚡ There are 2 12V DC motors moving the tank. The motors are driven by the motor driver BTS7960B. The motor driver and the motors are powered from different power sources.
-
-12V DC motor
-![alt text](https://github.com/CankutBoraTuncer/MUWCAT-Mk1/blob/main/Misc/Img/dcmotor.jpg)
-BTS7960B
-![alt text](https://github.com/CankutBoraTuncer/MUWCAT-Mk1/blob/main/Misc/Img/motor_driver.webp)
-
 
 ## ⚙️Microcontrollers
 
@@ -721,18 +698,6 @@ There are 3 different microcontrollers runing the tasks.
 🖥️The ESP32 creates the webserver and communicates with the mobile app. It sends the recieved data to the KL25z over UART. 
 
 🖥️The Arduino Nano is solely for the powerbank.
-
-Kl25z Freedom Board
-
-![alt text](https://github.com/CankutBoraTuncer/MUWCAT-Mk1/blob/main/Misc/Img/frdm-kl25z.jpg)
-
-ESP32-Cam
-
-![alt text](https://github.com/CankutBoraTuncer/MUWCAT-Mk1/blob/main/Misc/Img/esp32.webp)
-
-Arduino Nano
-
-![alt text](https://github.com/CankutBoraTuncer/MUWCAT-Mk1/blob/main/Misc/Img/arduinonano.webp)
 
 # ✔️Parts List
 
