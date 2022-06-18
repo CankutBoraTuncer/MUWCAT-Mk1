@@ -3,7 +3,7 @@
 
 This repo includes Cankut Bora Tuncer's EEE212 2021 Term Project Multipurpose Wifi Camera Tank MUWCAT📌. This project contains two main parts: Software💻 and Hardware⚙️. For the software it is mainly used C language📌. The main code resides at KL25Z Freedom board📌. ESP32 communicates with the mobile app (wifi) and KL25Z (UART)📌. With the mobile app the user can control the 2 12V DC motors and 5 5V servo motors📌. Moreover, ESP32 sends the camera feed to the mobile app where the video can be seen📌. Last but not least, an Arduino Nano is used for initiating the QC3 handshake used in power banks📌. Feel free to contact me via email bora.tuncer2002@gmail.com for further questions📌.  
 
-![alt text](https://github.com/CankutBoraTuncer/MUWCAT-Mk1/blob/main/Misc/Img/IMG-20220530-WA0001.jpg?=10x10)
+![alt text](https://github.com/CankutBoraTuncer/MUWCAT-Mk1/blob/main/Misc/Img/IMG-20220530-WA0001.jpg=10x10)
 ## 📚Acknowledgements
 
  - [Cankut Bora Tuncer - Github](https://github.com/CankutBoraTuncer)
