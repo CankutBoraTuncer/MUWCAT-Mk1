@@ -3,8 +3,8 @@
 #include "math.h"
 
 #define DEFAULT_SYSTEM_CLOCK 20971520u /* Default System clock value */
-#define servo_mod 3276
-#define motor_mod 333
+#define servo_mod 1638                 // 50 Hz
+#define motor_mod 167                  // 490 Hz
 
 void PWM_init(void);
 int cnv_calculator(float duty, int mod);
