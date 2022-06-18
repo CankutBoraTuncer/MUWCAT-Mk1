@@ -8,7 +8,7 @@ This repo includes Cankut Bora Tuncer's EEE212 2021 Term Project Multipurpose Wi
 
  - [Cankut Bora Tuncer - Github](https://github.com/CankutBoraTuncer)
  - [Cankut Bora Tuncer - LinkedIn](https://www.linkedin.com/in/cankut-bora-tuncer-8317741b8)
- - [Cankut Bora Tuncer - Youtube](https://www.youtube.com/channel/UC07zxHsGqEjZgMl7d5t4L_Q)
+ - [Cankut Bora Tuncer - Project Video Youtube](https://youtu.be/96csN--FuuI)
 
 
 # 💻Software 
